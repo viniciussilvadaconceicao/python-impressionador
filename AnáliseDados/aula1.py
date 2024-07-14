@@ -12,6 +12,7 @@
 #use gráficos e análises visuais para facilitar o entendimento
 
 '''5 Questione e duvide - Um framework para criar hipóteses'''
+#levantar hipóteses tazer dados para comprovar CORRELACAO X CAUSALIDADE
 
 '''6 confime suas teorias'''
 
@@ -37,4 +38,14 @@ açucar = commodity = preço Tabelado
 Plastico = Vários fornecedores = Negociável
 
 grafico de pizza = 73% açucar e plastico mostrando a importancia dos 2 itens
+'''
+#COMO REDUZIR ESSES CUSTOS?
+'''
+AÇUCAR:
+- preço = commodity, muito dificil
+- quantidade = pode ser , mas qual o impacto ?
+
+PLASTICO = VARIOS FORNECEDORES
+- preço = negociar com fornecedores?
+-quantidade = será que conseguimos faz uma garrafa que tenha menos plastico?
 '''
