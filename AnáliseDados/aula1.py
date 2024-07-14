@@ -15,7 +15,7 @@
 #levantar hipóteses tazer dados para comprovar CORRELACAO X CAUSALIDADE
 
 '''6 confime suas teorias'''
-
+#não confie cegamentem vá a fundo e teste suas teorias comprovando ela
 
 #aplicação em case 
 '''voce foi contratado para reduzir oos custos de uma fábrica da cocacola
@@ -49,3 +49,6 @@ PLASTICO = VARIOS FORNECEDORES
 - preço = negociar com fornecedores?
 -quantidade = será que conseguimos faz uma garrafa que tenha menos plastico?
 '''
+# análise crítica e visão de negócio se desenvolve com o tempo...
+'''ás vezes você não vai conseguir que os dados te digam tudo, tem hora 
+que você não vai ter o gabarito escrito. E nessa hora, vai com experiência e debates'''
