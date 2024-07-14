@@ -9,6 +9,7 @@
 '''3 causa e efeito dos principais ofensores e oportunidades'''
 #entender o impacto dos 20% sobre o problema original
 '''4 visualização de dados e comparação'''
+#use gráficos e análises visuais para facilitar o entendimento
 
 '''5 Questione e duvide - Um framework para criar hipóteses'''
 
@@ -31,4 +32,9 @@ outros: 500.000
 acucar + plastico = 9.000.000
 custo total = 12.300.000
 2 itens = 73% do custo total
+
+açucar = commodity = preço Tabelado
+Plastico = Vários fornecedores = Negociável
+
+grafico de pizza = 73% açucar e plastico mostrando a importancia dos 2 itens
 '''
