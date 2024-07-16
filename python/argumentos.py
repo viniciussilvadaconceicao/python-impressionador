@@ -6,13 +6,14 @@ def somatorio(*args):
         soma += numero
     return soma
 
-#print(somatorio(1,4,5,10,100))
+print(somatorio(1,4,5,10,100))
+print('\n'*5)
 
 # (*args) é usado para passar um número variável de argumentos muitos dão o nome de args
 #(**kwargs) é usado para passar como dict um número variável de argumentos muitos dão o nome de kwargs
 
 def preco_final(preco, **kwargs):
-    '''calcula o preço final de um produto'''
+    '''calcula o preço final de um produto pasando o argumento dentro de um dict'''
     print(kwargs)#para ver o que está sendo passado em dict
     if 'desconto' in kwargs:
         preco = preco - kwargs['desconto']
