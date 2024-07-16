@@ -1,4 +1,5 @@
 def eh_da_categoria(bebidas, categoria):
+    '''pega os elementos da lista e verifica se é da categoria informada'''
     bebidas = bebidas.upper()
     if categoria in bebidas:
         return True
