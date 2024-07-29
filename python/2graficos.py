@@ -7,4 +7,5 @@ venda = np.random.randint(1000,3000,50)
 #arenge gera um vetor de 1 a 50
 meses = np.arange(1,51)
 plt.plot(meses,venda)
+plt.axis(0,50 ,0 ,max(venda))
 plt.show()
