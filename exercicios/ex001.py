@@ -52,4 +52,6 @@ for mes in faturamento:
     valor_faturamento = transformar_numero(faturamento[mes])
     imposto_mensal = calcular_imposto_mensal(valor_faturamento)
     imposto_trimestral = calcular_imposto_trimestral(valor_faturamento)
-    print(valor_faturamento, imposto_mensal, imposto_trimestral)
+    resultado[mes]= (valor_faturamento, imposto_mensal, imposto_trimestral)
+
+print(resultado)
