@@ -27,7 +27,8 @@ def transformar_numero(texto):
     texto = texto.replace('R$', '')
     texto = texto.replace('.', '')
     texto = texto.replace(',', '.')
-    print(texto)
+    valor = float(texto)
+    return valor
 
 def calcular_imposto_mensal(valor_faturamento):
     pass
