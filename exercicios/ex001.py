@@ -40,8 +40,8 @@ def calcular_imposto_mensal(valor_faturamento):
 def calcular_imposto_trimestral(valor_faturamento):
     ir = valor_faturamento * 0.048
     csll = valor_faturamento * 2.88
-    adicional = 0
-    if valor_faturamento> 200000:
+    adicional_ir = 0
+    if valor_faturamento > 200000:
         adicional_ir = (valor_faturamento - 200000) * 0.1
     imposto_trimestral = ir + csll + adicional_ir
     return imposto_trimestral
@@ -50,3 +50,4 @@ for mes in faturamento:
     valor_faturamento = transformar_numero(faturamento[mes])
     imposto_mensal = calcular_imposto_mensal(valor_faturamento)
     imposto_trimestral = calcular_imposto_trimestral(valor_faturamento)
+    print(valor_faturamento, imposto_mensal, imposto_trimestral)
