@@ -5,7 +5,7 @@ faturamento = {
     'abril': 'R$70.200,34',
     'maio': 'R$98.340,67',
     'junho': 'R$95.780,98',
-    'julho': 'R$98.000',
+    'julho': 'R$98.433,49',
     'agosto': 'R$101.090,56',
     'setembro': 'R$90.508,77',
     'outubro': 'R$98.800,23',
@@ -23,13 +23,16 @@ faturamento = {
 #calcular o imposto mensal
 #calcular o imposto trimestral
 #adicionar o faturamento , imposto mensal e trimestral ao dicionario resultado
-def transformar_numero():
+def transformar_numero(texto):
+    texto = texto.replace('R$', '')
+    texto = texto.replace('.', '')
+    texto = texto.replace(',', '.')
+    print(texto)
+
+def calcular_imposto_mensal(valor_faturamento):
     pass
 
-def calcular_imposto_mensal():
-    pass
-
-def calcular_imposto_trimestral():
+def calcular_imposto_trimestral(valor_faturamento):
     pass
 
 for mes in faturamento:
