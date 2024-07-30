@@ -31,10 +31,20 @@ def transformar_numero(texto):
     return valor
 
 def calcular_imposto_mensal(valor_faturamento):
-    pass
+    iss = valor_faturamento * 0.05
+    niss = valor_faturamento * 0.0065
+    cofins = valor_faturamento * 0.03
+    imposto_mensal = iss + niss + cofins
+    return imposto_mensal
 
 def calcular_imposto_trimestral(valor_faturamento):
-    pass
+    ir = valor_faturamento * 0.048
+    csll = valor_faturamento * 2.88
+    adicional = 0
+    if valor_faturamento> 200000:
+        adicional_ir = (valor_faturamento - 200000) * 0.1
+    imposto_trimestral = ir + csll + adicional_ir
+    return imposto_trimestral
 
 for mes in faturamento:
     valor_faturamento = transformar_numero(faturamento[mes])
