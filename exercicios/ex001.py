@@ -16,3 +16,10 @@ faturamento = {
 '''resultado = {
 'mes':(faturamento, imposto_mensal, imposto_trimetral)
 }'''
+
+#passo a passo
+#para cada mes de faturamento
+#transformar o valor do faturamento em um numero
+#calcular o imposto mensal
+#calcular o imposto trimestral
+#adicionar o faturamento , imposto mensal e trimestral ao dicionario resultado
