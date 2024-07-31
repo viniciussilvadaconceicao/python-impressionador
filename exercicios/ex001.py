@@ -1,3 +1,12 @@
+''' 1- Imposto a pagar no Lucro Presumido
+
+- 5% sobre faturamento de ISS (mensal)
+- 0,65% de PIS sobre faturamento, (mensal)
+- 3% de COFINS sobre faturmaneto, (mensal)
+- 4.8% de IR (trimestral)
+- 10% de IR Adicional sobre o que ultrapassar 20mil do faturamento (trimestral)
+- CSLL: 2,88% sobre faturamento (trimestral)'''
+
 faturamento = {
     'janeiro': 'R$95.659,25',
     'fevereiro': 'R$98.130,32',
