@@ -13,3 +13,22 @@ print(colunas)'''
 colunas = [tuplas[0] for tuplas in descricao]
 tabela = pd.DataFrame(informacoes,columns=colunas)#cria um dataframe com as informações
 print(tabela)
+
+# além disso, precisamos enviar por e-mail para o RH uma lista com o nome e o cargo de cada pessoa da tabela 
+# então você precisa construir o texto do corpo desse email do tipo:
+
+# texto = """
+# RH, segue a lista dos funcionários:
+# Fulano, Cargo: tal
+# Beltrano, Cargo: isso
+# """
+texto = "RH, segue a lista dos funcionários:"
+# para cada item das nossas informações
+#pegar o nome do funcionario tuplas[1]
+#pegar o cargo do funcionario tuplas[2]
+#adicionar uma nova linha ao texto
+for tuplas in informacoes:
+    nome_func = tuplas[1]
+    cargo_func = tuplas[2]
+    texto += f'\n{nome_func}, Cargo: {cargo_func}'
+print(texto)
