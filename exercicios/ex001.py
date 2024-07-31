@@ -23,6 +23,7 @@ faturamento = {
 #calcular o imposto mensal
 #calcular o imposto trimestral
 #adicionar o faturamento , imposto mensal e trimestral ao dicionario resultado
+
 def transformar_numero(texto):
     texto = texto.replace('R$', '')
     texto = texto.replace('.', '')
