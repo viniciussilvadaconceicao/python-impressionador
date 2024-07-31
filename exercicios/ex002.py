@@ -5,7 +5,10 @@ descricao = (('Id', "<class 'int'>", None, 10, 10, 0, True), ('EmployeeName', "<
 
 import pandas as pd
 
-colunas = []
+'''colunas = []
 for tuplas in descricao:
     colunas.append(tuplas[0])
+print(colunas)'''
+
+colunas = [tuplas[0] for tuplas in descricao]
 print(colunas)
