@@ -11,4 +11,5 @@ for tuplas in descricao:
 print(colunas)'''
 
 colunas = [tuplas[0] for tuplas in descricao]
-print(colunas)
+tabela = pd.DataFrame(informacoes,columns=colunas)#cria um dataframe com as informações
+print(tabela)
