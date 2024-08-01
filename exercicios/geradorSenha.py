@@ -10,6 +10,7 @@ def gerador_senha(tamanho):
             random.choice(string.punctuation)#caracteres especiais
         ]
         possibilidades = "".join([string.ascii_letters, string.digits, string.punctuation])
+        senha.extend(random.choices(possibilidades, k=tamanho-3))#adiciona o restante da senha
         random.shuffle(senha)#embaralha a senha
         return ''.join(senha)
 
