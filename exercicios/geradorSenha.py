@@ -14,6 +14,8 @@ def gerador_senha(tamanho):
         random.shuffle(senha)#embaralha a senha
         return ''.join(senha)#join transforma a lista em string
 
-
-tamanho = int(input("Digite o tamanho da senha: "))
-print(gerador_senha(tamanho))
+try:
+    tamanho = int(input("Digite o tamanho da senha: "))
+    print(gerador_senha(tamanho))
+except ValueError:
+    print("Digite um número inteiro")
