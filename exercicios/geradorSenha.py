@@ -1,6 +1,6 @@
 def gerador_senha(tamanho):
     if tamanho < 4:
-        print("Senha muito curta")
+        print("Senha muito curta não pode ter menos de 4 caracteres")
     else:
         import random
         import string
