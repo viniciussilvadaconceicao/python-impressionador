@@ -10,7 +10,7 @@ def gerador_senha(tamanho):
             random.choice(string.punctuation)#caracteres especiais
         ]
         random.shuffle(senha)#embaralha a senha
-        return senha
+        return ''.join(senha)
 
 
 tamanho = int(input("Digite o tamanho da senha: "))
