@@ -5,10 +5,11 @@ def gerador_senha(tamanho):
         import random
         import string
         senha = [
-            random.choice(string.ascii_letters),
-            random.choice(string.digits),
-            random.choice(string.punctuation)
+            random.choice(string.ascii_letters),#letras maiusculas e minusculas
+            random.choice(string.digits),#numeros
+            random.choice(string.punctuation)#caracteres especiais
         ]
+        random.shuffle(senha)#embaralha a senha
         return senha
 
 
