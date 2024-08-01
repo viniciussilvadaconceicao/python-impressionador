@@ -9,6 +9,7 @@ def gerador_senha(tamanho):
             random.choice(string.digits),
             random.choice(string.punctuation)
         ]
+        return senha
 
 
 tamanho = int(input("Digite o tamanho da senha: "))
