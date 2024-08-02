@@ -17,4 +17,4 @@ for rede_sociais, url in rede_sociais.items():
 
     )
 
-    imagem.save(f"qrcode_logo.png")
+    imagem.save(f"qrsocias_{rede_sociais}.png")
