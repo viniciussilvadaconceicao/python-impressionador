@@ -9,7 +9,7 @@ rede_sociais = {
 }
 for rede_sociais, url in rede_sociais.items():
     qr = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_H)  # para poder adicionar uma imagem
-    qr.add_data("url")
+    qr.add_data(url)
 
     imagem = qr.make_image(
     image_factory=StyledPilImage,
