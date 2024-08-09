@@ -7,4 +7,6 @@ vendas_produtos = {'iphone':400,'ipad':550,'sansung':1000,'pc':18000}
 def segundo_elemento(tupla):
     return tupla[1]
 
-vendas_produtos = list(vendas_produtos.items())
+vendas_lista = list(vendas_produtos.items())
+vendas_lista = vendas_lista.sort(key=segundo_elemento, reverse=True)
+print(vendas_produtos)
