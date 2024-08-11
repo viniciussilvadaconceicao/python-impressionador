@@ -9,3 +9,8 @@ def minha_função2(num):
     return num * 2
 print(minha_função2(5))
 # a função acima é a mesma coisa que a de cima, só que com o lambda é mais simples
+
+imposto = 0.3
+def preço_imposto(valor):
+    return valor * (1 + imposto)
+print(preço_imposto(100))
