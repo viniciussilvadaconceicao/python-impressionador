@@ -13,6 +13,7 @@ print('\n')
 # a função acima é a mesma coisa que a de cima, só que com o lambda é mais simples
 
 imposto = 0.3
-def preço_imposto(valor):
-    return valor * (1 + imposto)
-print(preço_imposto(100))
+
+valor_imposto = lambda valor : valor * (1 + imposto)
+print(valor_imposto(100))
+print('\n')
