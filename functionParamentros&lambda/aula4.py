@@ -4,7 +4,7 @@ def imposto(valor):
     '''Função que calcula o imposto de um produto'''
     return valor * (1 + 0.3)
 
-preco_imposto = list(map(imposto,preco_tecnologicos.values()))#map(função, lista)
+preco_imposto = list(map(imposto,preco_tecnologicos.values()))#map(função, lista) ele pega a função e aplica na lista	
 print(preco_imposto)
 print('\n')
 
