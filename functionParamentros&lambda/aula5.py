@@ -3,6 +3,7 @@
 #produto 0.1
 
 def imposto(imposto):
+    '''Função que calcula o imposto de um produto'''
     return lambda preco: preco * (1 + imposto)
 
 calcular_serviço = imposto(0.15)
