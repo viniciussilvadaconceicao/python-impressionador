@@ -10,3 +10,9 @@ def produto(valor):
 
 def imposto(imposto):
     return lambda preco: preco * imposto
+
+calcular_serviço = imposto(0.15)
+calcular_produto = imposto(0.1)
+calcular_imposto = imposto(0.3)
+
+print(calcular_serviço(100))
